@@ -1,0 +1,18 @@
+<div class="row" ng-repeat="bar in bars">
+    <hr class="extra-margin">
+    <div class="col-md-7">
+        <div class="view overlay hm-white-light z-depth-1-half marginBottom">
+            <img src="{{bar.photo}}" class="img-fluid itemImg img-rounded" alt="">
+            <div class="mask">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5">
+        <h2 class="post-title">{{bar.name}}</h2></a>
+        <p class="lead">Address: {{bar.address}}</p>
+        <div class="read-more">
+            <a ng-click = "myFilter = {name:name}" href="#/bar/{{bar.name}}" class="btn btn-primary">Learn more</a>
+        </div>
+    </div>
+</div>

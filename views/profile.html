@@ -1,0 +1,26 @@
+<div class="container-header-user">
+<div>
+      <img src="{{user.photo}}" />
+  </div>
+</div>
+
+<div class="container relative-container marginBottom">
+
+    <div class="profile-user-image">
+        <img src="{{user.photo}}" alt="" >
+    </div>
+    <div class="profileText">
+    <div class="col-md-5"></div>
+    <div class="col-md-4">
+        <p class="lead">Username: {{user.username}}</p>
+        <p class="lead">Age: {{user.age}}</p>
+        <p class="lead">Email: {{user.email}}</p>
+        <p class="lead">Role: {{user.role}}</p>
+        <div class="read-more">
+            <a class="btn btn-danger" ng-click="logOut(); reload()">Log Out</a>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+    </div>
+
+</div>

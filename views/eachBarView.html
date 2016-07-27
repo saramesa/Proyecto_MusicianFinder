@@ -1,0 +1,19 @@
+<div class="row" ng-controller="eachArtistController" ng-repeat="bar in bars | toArray | filter:{name:name}">
+    <hr class="extra-margin">
+    <div class="col-md-7">
+        <div class="view overlay hm-white-light z-depth-1-half marginBottom">
+            <img src="{{bar.photo}}" class="img-fluid img-rounded itemImg" alt="">
+            <div class="mask"></div>
+        </div>
+    </div>
+
+    <div class="col-md-5">
+        <h2 class="post-title">{{bar.name}}</h2></a>
+        <p class="lead">Address: {{bar.address}}</p>
+        <p class="lead">Phone : {{bar.phone}}</p>
+        <p class="lead">Email : {{bar.email}}</p>
+        <div class="read-more">
+           <a class="btn btn-success">Follow</a>
+        </div>
+    </div>
+</div>

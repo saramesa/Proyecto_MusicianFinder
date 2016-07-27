@@ -1,0 +1,21 @@
+<div class="row" ng-controller="eachArtistController" ng-repeat="artist in artists | toArray | filter:{name:name}">
+
+    <hr class="extra-margin">
+    <div class="col-md-7">
+        <div class="view overlay hm-white-light z-depth-1-half marginBottom">
+            <img src="{{artist.photo}}" class="img-fluid img-rounded itemImg" alt="">
+            <div class="mask"></div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <a href="#!"><h2 class="post-title">{{artist.name}}</h2></a>
+        <p class="lead">Age : {{artist.age}}</p>
+        <p class="lead">Type of music: {{artist.typemusic}}</p>
+        <p class="lead">Type of band: {{artist.typeband}}</p>
+        <p class="lead">Email : {{artist.email}}</p>
+        <p class="lead">Phone : {{artist.phone}}</p>
+        <div class="read-more">
+            <a class="btn btn-success">Follow</a>
+        </div>
+    </div>
+</div>
