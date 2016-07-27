@@ -1,0 +1,22 @@
+USUARIOS ngStorage-user
+
+{"saramesa":{"name":"Sara Mesa","username":"saramesa","email":"saramesaguerra@gmail.com","password":"Hola","role":"artist","photo":"https://static.pexels.com/photos/6403/people-woman-girl-technology.jpg","age":"27"},
+"adrigarrido":{"name":"Adrian Garrido","username":"adriangarrido","email":"adrigarrido@gmail.com","password":"hola","role":"artist","photo":"http://static5.businessinsider.com/image/52c444b9ecad04dd6e7479ab/while-everyone-else-whines-this-guy-makes-his-whole-living-off-facebook-traffic.jpg","age":"23"},
+"liamgallagher":{"name":"Liam Gallagher","username":"liamgallagher","email":"liamgallagher@gmail.com","password":"hola","role":"artist","photo":"http://media.new.mensxp.com/media/content/2016/Jan/this-guy-rsquo-s-fitbit-captured-the-exact-moment-his-heart-broke-while-being-dumped1-1453373482.jpg","age":"33"},
+"emmamiller":{"name":"Emma Miller","username":"emmamiller","email":"emmamiller@gmail.com","password":"hola","role":"artist","photo":"http://www.guitargirlmag.com/system/images/blog/51741_dorka%20002.jpg","age":"24"}}
+
+ARTISTS: ngStorage-artist
+
+{"Emma Miller":{"name":"Emma Miller","typemusic":"acoustic","typeband":"solist","photo":"http://www.guitargirlmag.com/system/images/blog/51741_dorka%20002.jpg","phone":"621453268","email":"emmamiller@gmail.com","age":"24"},
+"Liam Davis":{"name":"Liam Davis","typemusic":"country","typeband":"solist","photo":"http://1.bp.blogspot.com/-a2LAmU09sFM/TZLxo4tFsMI/AAAAAAAAC1k/NDrZi4vGXAw/s1600/angus%2Bstone%2BII.jpg","phone":"632458172","email":"liamdavis@gmail.com","age":"26"},
+"D12":{"name":"D12","typemusic":"rap","typeband":"group","photo":"http://images1.mtv.com/uri/mgid:file:docroot:mtv.com:/crop-images/2013/09/12/D12%20UMG.jpg?enlarge=false&maxdimension=1300&matte=true&matteColor=black&quality=0.85","phone":"692135681","email":"d12@d12.com","age":""},
+"Sophia Hernandez":{"name":"Sophia Hernandez","typemusic":"pop","typeband":"solist","photo":"http://s5.favim.com/610/51/Favim.com-lights-lights-poxleitner-musician-artist-girl-471665.jpg","phone":"632578419","email":"sophiahernandez@gmail.com","age":"22"},
+"Remedy Drive":{"name":"Remedy Drive","typemusic":"indie","typeband":"group","photo":"http://wallpaper4god.com/en/wp-content/uploads/2011/12/Remedy-Drive-Music-Group-photo.jpg","phone":"684124597","email":"remedydrive@remedydrive.com","age":""}}
+
+BARS: ngStorage-bars
+
+{"The Blind Beggar":{"name":"The Blind Beggar","address":"London Borough of Tower Hamlets, 15","photo":"http://guaymy.es/wp-content/uploads/2015/11/bar-bordons1.jpg","phone":"1 45236875","email":"theblindbeggar@gmail.com"},
+"Manhattan Lounge Bar":{"name":"Manhattan Lounge Bar","address":"7th Ave, New York","photo":"http://feelgrafix.com/data_images/out/28/975455-bar.jpg","phone":"1 2789 6354 891","email":"manhattanloungebar@gmail.com"},
+"NYLO":{"name":"NYLO","address":"2178 Broadway at 77th Street","photo":"http://www.nylohotels.com/resourcefiles/mainimages_hotelpage/nyc-eat-and-drink-local-bar.jpg","phone":"1 598 457 853","email":"nylohostel@gmail.com"},
+"WOW Cafe & Bar":{"name":"WOW Cafe & Bar","address":"Carrer d'Enric Granados, 73, Barcelona","photo":"https://media-cdn.tripadvisor.com/media/photo-s/04/c4/f3/3b/wow-cafe-bar.jpg","phone":"1 235 648 452","email":"wowcafebar@gmail.com"},
+"Mandarin City Bar":{"name":"Mandarin City Bar","address":"3752 Las Vegas Boulevard South, Las Vegas","photo":"http://photos.mandarinoriental.com/is/image/MandarinOriental/las-vegas-restaurant-mandarin-bar-city-views-1?$DetailBannerHeight$","phone":"1 888 881 9367","email":"mandarincitybar@gmail.com"}}
